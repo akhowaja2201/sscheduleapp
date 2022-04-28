@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-   
+    var list = ["1st Period", "2nd period", "3rd period"]
     
     
     override func viewDidLoad() {
