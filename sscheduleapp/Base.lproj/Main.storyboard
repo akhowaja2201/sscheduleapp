@@ -36,6 +36,15 @@
                                 <color key="textColor" systemColor="systemOrangeColor"/>
                                 <color key="highlightedColor" systemColor="labelColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5m9-fc-XTn">
+                                <rect key="frame" x="86" y="802" width="242" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="B-DAY"/>
+                                <connections>
+                                    <segue destination="5UH-VA-oIn" kind="show" id="y73-eW-mcm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -85,6 +94,7 @@
                         <viewLayoutGuide key="safeArea" id="y0L-qC-PEJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="zPq-hU-qiy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bhw-kl-dux" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
