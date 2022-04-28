@@ -47,8 +47,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="PHD-8P-DPq">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="rpv-O8-e8h"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="rpv-O8-e8h">
+                            <connections>
+                                <action selector="addButton:" destination="BYZ-38-t0r" id="VUL-O2-mz3"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="mng-xv-M5u" id="Rxj-Ic-rDf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
