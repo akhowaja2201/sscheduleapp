@@ -14,6 +14,8 @@
 		035BB380281882AD00637BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035BB37F281882AD00637BE0 /* Assets.xcassets */; };
 		035BB383281882AD00637BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035BB381281882AD00637BE0 /* LaunchScreen.storyboard */; };
 		3421318D2820668400DB684F /* BDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3421318C2820668400DB684F /* BDayViewController.swift */; };
+		3421318F282066FD00DB684F /* AssignmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3421318E282066FD00DB684F /* AssignmentsViewController.swift */; };
+		342131912820671600DB684F /* LunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342131902820671600DB684F /* LunchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		035BB382281882AD00637BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		035BB384281882AD00637BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3421318C2820668400DB684F /* BDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDayViewController.swift; sourceTree = "<group>"; };
+		3421318E282066FD00DB684F /* AssignmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsViewController.swift; sourceTree = "<group>"; };
+		342131902820671600DB684F /* LunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 		035BB375281882AB00637BE0 /* sscheduleapp */ = {
 			isa = PBXGroup;
 			children = (
+				035BB37C281882AB00637BE0 /* Main.storyboard */,
 				035BB376281882AB00637BE0 /* AppDelegate.swift */,
 				035BB378281882AB00637BE0 /* SceneDelegate.swift */,
 				035BB37A281882AB00637BE0 /* ViewController.swift */,
 				3421318C2820668400DB684F /* BDayViewController.swift */,
-				035BB37C281882AB00637BE0 /* Main.storyboard */,
+				3421318E282066FD00DB684F /* AssignmentsViewController.swift */,
+				342131902820671600DB684F /* LunchViewController.swift */,
 				035BB37F281882AD00637BE0 /* Assets.xcassets */,
 				035BB381281882AD00637BE0 /* LaunchScreen.storyboard */,
 				035BB384281882AD00637BE0 /* Info.plist */,
@@ -144,7 +150,9 @@
 				035BB37B281882AB00637BE0 /* ViewController.swift in Sources */,
 				035BB377281882AB00637BE0 /* AppDelegate.swift in Sources */,
 				3421318D2820668400DB684F /* BDayViewController.swift in Sources */,
+				342131912820671600DB684F /* LunchViewController.swift in Sources */,
 				035BB379281882AB00637BE0 /* SceneDelegate.swift in Sources */,
+				3421318F282066FD00DB684F /* AssignmentsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
