@@ -19,7 +19,6 @@ class ViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         aDayTableView.dataSource = self
-        aDayTableView.separatorColor = UIColor.cyan
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
