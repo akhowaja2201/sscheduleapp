@@ -7,23 +7,32 @@
 
 import UIKit
 
-class AssignmentsViewController: UIViewController {
-
+class AssignmentsViewController: UIViewController, UITableViewDataSource {
+    
+    @IBOutlet weak var assignmentTextField: UITextField!
+    @IBOutlet weak var assignmentTableView: UITableView!
+    var list = [""]
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        assignmentTableView.dataSource = self
+        
+    }
+    @IBAction func whenAddAssignmentPressed(_ sender: Any) {
+        if let newItem = assignmentTextField.text, assignmentTextField.text != "" {
+                list.append(newItem)
+                assignmentTableView.reloadData()
+                assignmentTextField.text = ""
+            } else {
+                
+            }
+    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return list.count
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = assignmentTableView.dequeueReusableCell(withIdentifier: "assignmentCell", for: indexPath)
+        cell.textLabel?.text = list[indexPath.row]
+        return cell
     }
-    */
-
 }
