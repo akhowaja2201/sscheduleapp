@@ -301,6 +301,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bMe-TF-QSh">
+                                <rect key="frame" x="153" y="760" width="99" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="apply"/>
+                                <connections>
+                                    <action selector="whenApplyButtonPressed:" destination="FcX-Z4-m3B" eventType="touchUpInside" id="oyY-6P-pvR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hYF-WO-2nP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
