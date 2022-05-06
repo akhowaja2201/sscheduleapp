@@ -16,5 +16,7 @@ class calenderViewController: UIViewController {
 
         
     }
+    @IBAction func whenApplyButtonPressed(_ sender: Any) {
+    }
     
 }
