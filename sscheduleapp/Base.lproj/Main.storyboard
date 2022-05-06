@@ -251,10 +251,10 @@
             </objects>
             <point key="canvasLocation" x="3379.7101449275365" y="69.642857142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Calender View Controller-->
         <scene sceneID="s2v-Mn-Oy4">
             <objects>
-                <viewController id="FcX-Z4-m3B" sceneMemberID="viewController">
+                <viewController id="FcX-Z4-m3B" customClass="calenderViewController" customModule="sscheduleapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iGn-2P-lKM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
