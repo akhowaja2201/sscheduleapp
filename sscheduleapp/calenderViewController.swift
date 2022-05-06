@@ -9,6 +9,8 @@ import UIKit
 
 class calenderViewController: UIViewController {
     
+    @IBOutlet weak var eventTextField: UITextField!
+    @IBOutlet weak var dayTextField: UITextField!
     
     var week = ["Monday:", "Tuesday:", "Wednesday:", "Thursday:", "Friday:"]
     override func viewDidLoad() {
@@ -17,6 +19,7 @@ class calenderViewController: UIViewController {
         
     }
     @IBAction func whenApplyButtonPressed(_ sender: Any) {
+        
     }
     
 }
