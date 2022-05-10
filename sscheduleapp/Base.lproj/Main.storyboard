@@ -279,7 +279,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="eOu-ul-JlA">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="calendarCell" id="eOu-ul-JlA">
                                         <rect key="frame" x="0.0" y="44.5" width="374" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eOu-ul-JlA" id="Dyf-8d-EtN">
@@ -316,6 +316,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="caf-EJ-3oW"/>
                     <connections>
+                        <outlet property="calendarTableView" destination="Ld3-Jk-mSh" id="hku-bl-BPA"/>
                         <outlet property="dayTextField" destination="ftc-qE-lWN" id="2oh-qE-VHM"/>
                         <outlet property="eventTextField" destination="WL4-ju-Jei" id="oNq-fG-RTP"/>
                     </connections>
@@ -323,6 +324,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="spX-AK-2Ae" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4285.507246376812" y="67.633928571428569"/>
+        </scene>
+        <!--Custom Schedule View Controller-->
+        <scene sceneID="17y-BI-BxS">
+            <objects>
+                <viewController id="H4F-b9-UR9" customClass="customScheduleViewController" customModule="sscheduleapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ie7-kk-Rdk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="f2c-Af-7VV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jfp-c5-cJ3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5016" y="70"/>
         </scene>
         <!--Day View Controller-->
         <scene sceneID="UUz-Cb-r5q">
