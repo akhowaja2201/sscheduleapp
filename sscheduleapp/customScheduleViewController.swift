@@ -7,23 +7,37 @@
 
 import UIKit
 
-class customScheduleViewController: UIViewController {
-
-    override func viewDidLoad() {
+class customScheduleViewController: UIViewController, UITableViewDataSource {
+    
+    @IBOutlet weak var customTableView: UITableView!
+    @IBOutlet weak var customTextField: UITextField!
+    
+    var data = [" "]
+    override func viewDidLoad(){
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        return data.count
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = customTableView.dequeueReusableCell(withIdentifier: "customCell", for: indexPath)
+        cell.textLabel?.text = data[indexPath.row]
+        return cell
     }
-    */
+    
+    @IBAction func whenAddButtonPressed(_ sender: Any) {
+        if let newItem = customTextField.text, customTableView.text != "" {
+                data.append(newItem)
+                customTableView.reloadData()
+                customTextField.text = ""
+            } else {
+                
+            }
+        
+        
+    }
 
 }
