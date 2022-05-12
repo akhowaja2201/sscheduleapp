@@ -13,6 +13,7 @@
 		035BB37E281882AB00637BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035BB37C281882AB00637BE0 /* Main.storyboard */; };
 		035BB380281882AD00637BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035BB37F281882AD00637BE0 /* Assets.xcassets */; };
 		035BB383281882AD00637BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035BB381281882AD00637BE0 /* LaunchScreen.storyboard */; };
+		3419E4AD282D9D8100D7BEFA /* attendanceQuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3419E4AC282D9D8100D7BEFA /* attendanceQuestionController.swift */; };
 		3421318D2820668400DB684F /* BDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3421318C2820668400DB684F /* BDayViewController.swift */; };
 		3421318F282066FD00DB684F /* AssignmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3421318E282066FD00DB684F /* AssignmentsViewController.swift */; };
 		342131912820671600DB684F /* LunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342131902820671600DB684F /* LunchViewController.swift */; };
@@ -28,6 +29,7 @@
 		035BB37F281882AD00637BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		035BB382281882AD00637BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		035BB384281882AD00637BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3419E4AC282D9D8100D7BEFA /* attendanceQuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = attendanceQuestionController.swift; sourceTree = "<group>"; };
 		3421318C2820668400DB684F /* BDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDayViewController.swift; sourceTree = "<group>"; };
 		3421318E282066FD00DB684F /* AssignmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsViewController.swift; sourceTree = "<group>"; };
 		342131902820671600DB684F /* LunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				035BB37C281882AB00637BE0 /* Main.storyboard */,
+				3419E4AC282D9D8100D7BEFA /* attendanceQuestionController.swift */,
 				3453390D282AEDDA004B093E /* customScheduleViewController.swift */,
 				035BB376281882AB00637BE0 /* AppDelegate.swift */,
 				035BB378281882AB00637BE0 /* SceneDelegate.swift */,
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3419E4AD282D9D8100D7BEFA /* attendanceQuestionController.swift in Sources */,
 				035BB37B281882AB00637BE0 /* ViewController.swift in Sources */,
 				035BB377281882AB00637BE0 /* AppDelegate.swift in Sources */,
 				3421318D2820668400DB684F /* BDayViewController.swift in Sources */,
