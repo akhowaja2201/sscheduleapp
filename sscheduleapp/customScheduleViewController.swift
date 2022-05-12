@@ -29,15 +29,12 @@ class customScheduleViewController: UIViewController, UITableViewDataSource {
     }
     
     @IBAction func whenAddButtonPressed(_ sender: Any) {
-        if let newItem = customTextField.text, customTableView.text != "" {
+        if let newItem = customTextField.text, customTextField.text != "" {
                 data.append(newItem)
                 customTableView.reloadData()
                 customTextField.text = ""
             } else {
                 
             }
-        
-        
     }
-
 }
