@@ -80,17 +80,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="PHD-8P-DPq">
-                        <barButtonItem key="leftBarButtonItem" title="Calender" style="plain" id="nHS-SY-kGh">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="pgo-Kh-3Rm">
-                                <rect key="frame" x="20" y="5" width="93" height="34.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Custom"/>
-                            </button>
-                            <connections>
-                                <segue destination="H4F-b9-UR9" kind="show" id="VID-df-Ahz"/>
-                            </connections>
-                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Lunch" id="1Ey-uD-4Yp">
                             <connections>
                                 <segue destination="5UH-VA-oIn" kind="show" id="zjV-af-OfJ"/>
@@ -195,6 +184,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mxu-gR-bzT">
+                                <rect key="frame" x="73" y="766" width="268" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="For Teachers"/>
+                                <connections>
+                                    <action selector="whenAddAssignmentPressed:" destination="dT5-9n-7Sx" eventType="touchUpInside" id="dft-MJ-G8Z"/>
+                                    <action selector="whenAddButtonPressed:" destination="lA8-om-rsC" eventType="touchUpInside" id="4qo-hj-LQC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="y0L-qC-PEJ"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
@@ -348,7 +347,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G89-6o-R8P">
-                                <rect key="frame" x="20" y="770" width="227" height="31"/>
+                                <rect key="frame" x="20" y="770" width="117" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="A-DAY"/>
@@ -380,6 +379,15 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="Add class"/>
                                 <connections>
                                     <action selector="whenAddButtonPressed:" destination="lA8-om-rsC" eventType="touchUpInside" id="NTV-JS-uuZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J30-Lf-aZ0">
+                                <rect key="frame" x="145" y="770" width="117" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Custom"/>
+                                <connections>
+                                    <segue destination="H4F-b9-UR9" kind="show" id="HLV-OO-eRV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -420,7 +428,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="srZ-qT-FdM"/>
+        <segue reference="3mf-Tk-CM8"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="JHHS logo1_297px" width="297" height="206"/>
