@@ -67,10 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				035BB37C281882AB00637BE0 /* Main.storyboard */,
-				3419E4AC282D9D8100D7BEFA /* attendanceQuestionController.swift */,
-				3453390D282AEDDA004B093E /* customScheduleViewController.swift */,
 				035BB376281882AB00637BE0 /* AppDelegate.swift */,
 				035BB378281882AB00637BE0 /* SceneDelegate.swift */,
+				3419E4AC282D9D8100D7BEFA /* attendanceQuestionController.swift */,
+				3453390D282AEDDA004B093E /* customScheduleViewController.swift */,
 				035BB37A281882AB00637BE0 /* ViewController.swift */,
 				3421318C2820668400DB684F /* BDayViewController.swift */,
 				3421318E282066FD00DB684F /* AssignmentsViewController.swift */,
