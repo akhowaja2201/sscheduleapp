@@ -317,6 +317,21 @@
             </objects>
             <point key="canvasLocation" x="4221.739130434783" y="69.642857142857139"/>
         </scene>
+        <!--Attendance Question Controller-->
+        <scene sceneID="p9J-BE-H0t">
+            <objects>
+                <viewController id="Kjk-ne-F56" customClass="attendanceQuestionController" customModule="sscheduleapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HzE-Qt-thy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ggP-O0-U1J"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SIU-lR-4xr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4991" y="70"/>
+        </scene>
         <!--Day View Controller-->
         <scene sceneID="UUz-Cb-r5q">
             <objects>
