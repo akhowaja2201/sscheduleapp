@@ -70,9 +70,9 @@
 			children = (
 				34E259E9283586680057A84F /* Audio */,
 				035BB37C281882AB00637BE0 /* Main.storyboard */,
+				035BB376281882AB00637BE0 /* AppDelegate.swift */,
 				349B6F7428381C480046CC22 /* aboutCreatorsController.swift */,
 				341BC8162832D8B600A81A68 /* attendanceQuestionController.swift */,
-				035BB376281882AB00637BE0 /* AppDelegate.swift */,
 				035BB378281882AB00637BE0 /* SceneDelegate.swift */,
 				3453390D282AEDDA004B093E /* customScheduleViewController.swift */,
 				035BB37A281882AB00637BE0 /* ViewController.swift */,
