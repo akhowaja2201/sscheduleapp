@@ -373,6 +373,21 @@
             </objects>
             <point key="canvasLocation" x="4989.8550724637689" y="69.642857142857139"/>
         </scene>
+        <!--About Creators Controller-->
+        <scene sceneID="0Vl-24-5ki">
+            <objects>
+                <viewController id="wyb-zj-DUv" customClass="aboutCreatorsController" customModule="sscheduleapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4kT-mA-qAD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ml7-rq-KfT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XFo-AZ-Vw3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5810" y="70"/>
+        </scene>
         <!--Day View Controller-->
         <scene sceneID="UUz-Cb-r5q">
             <objects>
