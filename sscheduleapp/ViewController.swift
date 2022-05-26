@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController, UITableViewDataSource {
     
@@ -15,10 +16,34 @@ class ViewController: UIViewController, UITableViewDataSource {
     var list = [""]
     var listAday = ["1st Period", "2nd period", "3rd period", "4th period"]
     var listBday = ["5th period", "6th period", "7th period","8th period"]
+    var player: AVAudioPlayer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         aDayTableView.dataSource = self
+        if let player = player, player.isPlaying {
+            player.stop()
+        } else {
+            let urlString = Bundle.main.path(forResource: "San fantastico", ofType: "mp3")
+            
+            do {
+                try AVAudioSession.sharedInstance().setMode(.default)
+                try AVAudioSession.sharedInstance().setActive(true, options: .notifyOthersOnDeactivation)
+                
+                guard let urlString = urlString else {
+                    return
+                }
+                player = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: urlString))
+                
+                guard let player = player else {
+                    return
+                }
+                player.play()
+            }
+            catch{
+                print("something went wrong")
+            }
+        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
