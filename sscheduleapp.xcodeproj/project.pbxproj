@@ -21,7 +21,6 @@
 		349B6F7528381C480046CC22 /* aboutCreatorsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B6F7428381C480046CC22 /* aboutCreatorsController.swift */; };
 		34AB11B0283D30C400775B7B /* Best song ever.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34AB11AF283D30C400775B7B /* Best song ever.mp3 */; };
 		34AB11B2283D30D200775B7B /* San fantastico.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 34AB11B1283D30D200775B7B /* San fantastico.mp3 */; };
-		34AB11B4283D34CF00775B7B /* logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 34AB11B3283D34CF00775B7B /* logo.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +40,6 @@
 		349B6F7428381C480046CC22 /* aboutCreatorsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutCreatorsController.swift; sourceTree = "<group>"; };
 		34AB11AF283D30C400775B7B /* Best song ever.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Best song ever.mp3"; sourceTree = "<group>"; };
 		34AB11B1283D30D200775B7B /* San fantastico.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "San fantastico.mp3"; sourceTree = "<group>"; };
-		34AB11B3283D34CF00775B7B /* logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +84,6 @@
 				3421318C2820668400DB684F /* BDayViewController.swift */,
 				3421318E282066FD00DB684F /* AssignmentsViewController.swift */,
 				342131902820671600DB684F /* LunchViewController.swift */,
-				34AB11B3283D34CF00775B7B /* logo.jpeg */,
 				035BB37F281882AD00637BE0 /* Assets.xcassets */,
 				035BB381281882AD00637BE0 /* LaunchScreen.storyboard */,
 				035BB384281882AD00637BE0 /* Info.plist */,
@@ -156,7 +153,6 @@
 				035BB380281882AD00637BE0 /* Assets.xcassets in Resources */,
 				035BB37E281882AB00637BE0 /* Main.storyboard in Resources */,
 				34AB11B0283D30C400775B7B /* Best song ever.mp3 in Resources */,
-				34AB11B4283D34CF00775B7B /* logo.jpeg in Resources */,
 				34AB11B2283D30D200775B7B /* San fantastico.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

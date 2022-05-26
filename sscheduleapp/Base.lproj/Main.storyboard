@@ -55,7 +55,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VF6-Cl-wFd">
-                                <rect key="frame" x="20" y="794" width="156" height="31"/>
+                                <rect key="frame" x="20" y="794" width="120" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="B-DAY"/>
@@ -64,7 +64,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LY3-Ah-t7C">
-                                <rect key="frame" x="184" y="794" width="107" height="31"/>
+                                <rect key="frame" x="148" y="794" width="143" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Assignments"/>
@@ -567,6 +567,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="h2u-W5-oKL"/>
         <segue reference="srZ-qT-FdM"/>
         <segue reference="R1n-sW-Rdt"/>
     </inferredMetricsTieBreakers>
