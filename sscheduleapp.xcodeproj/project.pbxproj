@@ -40,6 +40,7 @@
 		349B6F7428381C480046CC22 /* aboutCreatorsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutCreatorsController.swift; sourceTree = "<group>"; };
 		34AB11AF283D30C400775B7B /* Best song ever.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Best song ever.mp3"; sourceTree = "<group>"; };
 		34AB11B1283D30D200775B7B /* San fantastico.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "San fantastico.mp3"; sourceTree = "<group>"; };
+		34C4E908283FC96D00007282 /* sscheduleapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sscheduleapp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 		035BB375281882AB00637BE0 /* sscheduleapp */ = {
 			isa = PBXGroup;
 			children = (
+				34C4E908283FC96D00007282 /* sscheduleapp.entitlements */,
 				34AB11AF283D30C400775B7B /* Best song ever.mp3 */,
 				34AB11B1283D30D200775B7B /* San fantastico.mp3 */,
 				035BB37C281882AB00637BE0 /* Main.storyboard */,
@@ -317,15 +319,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sscheduleapp/sscheduleapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD8CDQL73C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = sscheduleapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Schedule App";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,6 +339,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs.622201.sscheduleapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,15 +351,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sscheduleapp/sscheduleapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD8CDQL73C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = sscheduleapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Schedule App";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,6 +371,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs.622201.sscheduleapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
